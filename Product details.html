@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Product details</title>
+<style>
+#new-div{
+background-color:orange;
+border :5px solid black;
+width:400px;
+hight:200px;
+margin-left:200px;
+padding:50px;
+}
+</style>
+<script>
+function fun(){
+var a=document.getElementByid
+("uname").value;
+var b=document.getElementByid
+("pass").value;
+if(a==""||b=""){
+alert("please fill username and password");
+}
+if(a=="5"||b"5"){
+alert("it does not exsist 5 characters");
+}
+}
+</script>
+</head>
+</body>
+
+<center>
+<div id="new-div">
+<h1>Product details</h1>
+<table>
+<tr>
+<td><label>Productname</label></td>
+<td><input type="text"id=uname></td>
+</tr>
+<tr>
+<td><label>Price</label></td>
+<td><input type="text"id=price></td>
+</tr>
+<tr>
+<td><label>PLN<label></td>
+<td><input type="text"id=pln></td>
+<td><label>PLN</label></td>
+<td><input type="text"id=pln></td>
+</tr>
+<tr>
+<td><label>PL description<label></td>
+<td><input type="text"id=pl description></td>
+</tr>
+<tr>
+<td><label>Suppliers</label></td>
+<td><input type="text"id=suppliers></td>
+</tr>
+</tr>
+<tr>
+<td><label>Manifacture</label></td>
+<td><input type="text"id=manifacture></td>
+</tr>
+<tr>
+<td><label>Category</label></td>
+<td><input type="text"id=category></td>
+</tr>
+<td><label>Password</label></td>
+<td><input type="password"id=pass></td>
+</tr>
+<tr>
+
+<td><button onclick="fun
+()">submit</button></td>
+<td><input type="reset"
+value="Reset"></td>
+</tr>
+</table>
+</div>
+</form>
+</body>
+</html>

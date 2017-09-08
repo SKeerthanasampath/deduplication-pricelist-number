@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>login page</title>
+<style>
+#new-div{
+background-color:yellow;
+border :5px solid black;
+width:400px;
+hight:200px;
+margin-left:200px;
+padding:50px;
+}
+</style>
+<script>
+function fun(){
+var a=document.getElementByid
+("uname").value;
+var b=document.getElementByid
+("pass").value;
+if(a==""||b=""){
+alert("please fill username and password");
+}
+if(a=="5"||b"5"){
+alert("it does not exsist 5 characters");
+}
+}
+</script>
+</head>
+</body>
+<form action="Registration.html">
+<center>
+<div id="new-div">
+<h1>Login page</h1>
+<table>
+<tr>
+<td><label>Username</label></td>
+<td><input type="text"id=uname></td>
+</tr>
+<td><label>Password</label></td>
+<td><input type="password"id=pass></td>
+</tr>
+<tr>
+
+<td><button onclick="fun
+()">submit</button></td>
+<td><input type="reset"
+value="Reset"></td>
+</tr>
+</table>
+</div>
+</form>
+</body>
+</html>

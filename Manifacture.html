@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Manifacture</title>
+<style>
+#new-div{
+background-color:skyblue;
+border :5px solid black;
+width:400px;
+hight:200px;
+margin-left:200px;
+padding:50px;
+}
+</style>
+<script>
+function fun(){
+var a=document.getElementByid
+("uname").value;
+var b=document.getElementByid
+("pass").value;
+if(a==""||b=""){
+alert("please fill username and password");
+}
+if(a=="5"||b"5"){
+alert("it does not exsist 5 characters");
+}
+}
+</script>
+</head>
+</body>
+<form method="post">
+<center>
+<div id="new-div">
+<h1>Manifacture</h1>
+<table>
+<tr>
+<td><label>Name</label></td>
+<td><input type="text"id=name></td>
+</tr>
+<tr>
+<td><label>PhoneNo</label></td>
+<td><input type="text"id=PhoneNo></td>
+</tr>
+<tr>
+<td><label>Email-id</label></td>
+<td><input type="text"id=EmailId></td>
+</tr>
+<tr>
+<td><label>Address</label></td>
+<td><input type="text"id=Address></td>
+</tr>
+<tr>
+<td><label>Company</label></td>
+<td><input type="text"id=Company></td>
+</tr>
+<tr>
+<td><label>City</label></td>
+<td><input type="text"id=City></td>
+</tr>
+<td><label>password</label></td>
+<td><input type="password"id=pass></td>
+</tr>
+<tr>
+
+<td><button onclick="fun()">submit</button></td>
+<td><input type="reset" value="reset"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
